@@ -62,9 +62,9 @@ public class VaultManager {
             System.out.println("No saved entries found :( ");
             return;
         }
-        int i = 0;
+        System.out.println("\nEntry/s found: ");
         for (PasswordEntry entry : entries) {
-            System.out.println("\nEntry: " + i++);
+            System.out.println("\n");
             System.out.println(entry);
         }
     }
